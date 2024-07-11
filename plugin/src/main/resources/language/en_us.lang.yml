@@ -147,6 +147,9 @@ command:
     # Shown as the command output for '/combatlogx untag <player>'.
     untag-player: "<green>Successfully forced player <gray>{target}</gray> out of combat.</green>"
 
+    # Shown as the command output for '/combatlogx untagall'.
+    untag-all: "<green>Successfully forced <gray>{number}</gray> players out of combat.</green>"
+
     # Shown as the command output for '/combatlogx toggle bossbar'.
     toggle-bossbar: "<gray><bold>Boss Bar:</bold></gray> {status}"
 

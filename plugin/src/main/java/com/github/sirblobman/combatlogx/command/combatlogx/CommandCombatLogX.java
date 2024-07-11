@@ -18,6 +18,7 @@ public final class CommandCombatLogX extends CombatLogCommand {
         addSubCommand(new SubCommandTag(plugin));
         addSubCommand(new SubCommandToggle(plugin));
         addSubCommand(new SubCommandUntag(plugin));
+        addSubCommand(new SubCommandUntagAll(plugin));
         addSubCommand(new SubCommandVersion(plugin));
     }
 }
