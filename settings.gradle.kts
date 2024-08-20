@@ -27,12 +27,14 @@ include("expansion:scoreboard")
 // Cheat Prevention
 include("expansion:cheat-prevention:abstract")
 include("expansion:cheat-prevention:legacy")
+include("expansion:cheat-prevention:modern")
 include("expansion:cheat-prevention:paper")
 include("expansion:cheat-prevention")
 
 // End Crystals
 include("expansion:end-crystal:legacy")
 include("expansion:end-crystal:modern")
+include("expansion:end-crystal:moderner")
 include("expansion:end-crystal")
 
 // Compatibility expansions

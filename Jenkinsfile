@@ -17,7 +17,7 @@ pipeline {
     }
 
     tools {
-        jdk "JDK 17"
+        jdk "JDK 21"
     }
 
     stages {
@@ -27,7 +27,7 @@ pipeline {
                     script {
                         sh("./gradlew --refresh-dependencies --no-daemon clean build")
                         if (env.BRANCH_NAME == "main") {
-                            sh("./gradlew publish")
+                            sh("./gradlew publish --no-daemon")
                         }
                     }
                 }
